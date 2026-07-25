@@ -1,0 +1,241 @@
+{
+  "schema": "clrty.mis_repo/v1",
+  "creator": "Chandler William Ferguson",
+  "org": "clarity-fintech",
+  "repo": "clrty-mis-verify",
+  "title": "CLRTY MIS Verify",
+  "domain": "mis_verify",
+  "deep_root": {
+    "language": "moniversive",
+    "dialect": "mis-ml",
+    "extension": ".mis",
+    "language_root": "CLRTY_SUBSTRATE/boot/moniversive_language_root.json",
+    "settlement_network": "clrty-1",
+    "settlement_chain_id": 1202,
+    "embed_gates": "3..=6",
+    "letter_hash": "sha256-rolling-typed-letter/v1",
+    "compiler": "bin/misc"
+  },
+  "kernel": "mis/kernel/ClrtyMisVerifyKernel.mis",
+  "backlink_index": "mis/backlinks/MisBacklinkIndex.mis",
+  "packs": [
+    {
+      "name": "CommitBind",
+      "slug": "commit_bind",
+      "band": "1..=20",
+      "module": "mis/packs/commit_bind.mis",
+      "ids": [
+        "commit_bind_001",
+        "commit_bind_002",
+        "commit_bind_003",
+        "commit_bind_004",
+        "commit_bind_005",
+        "commit_bind_006",
+        "commit_bind_007",
+        "commit_bind_008",
+        "commit_bind_009",
+        "commit_bind_010",
+        "commit_bind_011",
+        "commit_bind_012",
+        "commit_bind_013",
+        "commit_bind_014",
+        "commit_bind_015",
+        "commit_bind_016",
+        "commit_bind_017",
+        "commit_bind_018",
+        "commit_bind_019",
+        "commit_bind_020"
+      ]
+    },
+    {
+      "name": "BytecodeHash",
+      "slug": "bytecode_hash",
+      "band": "21..=40",
+      "module": "mis/packs/bytecode_hash.mis",
+      "ids": [
+        "bytecode_hash_021",
+        "bytecode_hash_022",
+        "bytecode_hash_023",
+        "bytecode_hash_024",
+        "bytecode_hash_025",
+        "bytecode_hash_026",
+        "bytecode_hash_027",
+        "bytecode_hash_028",
+        "bytecode_hash_029",
+        "bytecode_hash_030",
+        "bytecode_hash_031",
+        "bytecode_hash_032",
+        "bytecode_hash_033",
+        "bytecode_hash_034",
+        "bytecode_hash_035",
+        "bytecode_hash_036",
+        "bytecode_hash_037",
+        "bytecode_hash_038",
+        "bytecode_hash_039",
+        "bytecode_hash_040"
+      ]
+    },
+    {
+      "name": "StaticMlMatrix",
+      "slug": "static_ml_matrix",
+      "band": "41..=60",
+      "module": "mis/packs/static_ml_matrix.mis",
+      "ids": [
+        "static_ml_matrix_041",
+        "static_ml_matrix_042",
+        "static_ml_matrix_043",
+        "static_ml_matrix_044",
+        "static_ml_matrix_045",
+        "static_ml_matrix_046",
+        "static_ml_matrix_047",
+        "static_ml_matrix_048",
+        "static_ml_matrix_049",
+        "static_ml_matrix_050",
+        "static_ml_matrix_051",
+        "static_ml_matrix_052",
+        "static_ml_matrix_053",
+        "static_ml_matrix_054",
+        "static_ml_matrix_055",
+        "static_ml_matrix_056",
+        "static_ml_matrix_057",
+        "static_ml_matrix_058",
+        "static_ml_matrix_059",
+        "static_ml_matrix_060"
+      ]
+    },
+    {
+      "name": "VectorAttest",
+      "slug": "vector_attest",
+      "band": "61..=80",
+      "module": "mis/packs/vector_attest.mis",
+      "ids": [
+        "vector_attest_061",
+        "vector_attest_062",
+        "vector_attest_063",
+        "vector_attest_064",
+        "vector_attest_065",
+        "vector_attest_066",
+        "vector_attest_067",
+        "vector_attest_068",
+        "vector_attest_069",
+        "vector_attest_070",
+        "vector_attest_071",
+        "vector_attest_072",
+        "vector_attest_073",
+        "vector_attest_074",
+        "vector_attest_075",
+        "vector_attest_076",
+        "vector_attest_077",
+        "vector_attest_078",
+        "vector_attest_079",
+        "vector_attest_080"
+      ]
+    },
+    {
+      "name": "RefuseForeign",
+      "slug": "refuse_foreign",
+      "band": "81..=100",
+      "module": "mis/packs/refuse_foreign.mis",
+      "ids": [
+        "refuse_foreign_081",
+        "refuse_foreign_082",
+        "refuse_foreign_083",
+        "refuse_foreign_084",
+        "refuse_foreign_085",
+        "refuse_foreign_086",
+        "refuse_foreign_087",
+        "refuse_foreign_088",
+        "refuse_foreign_089",
+        "refuse_foreign_090",
+        "refuse_foreign_091",
+        "refuse_foreign_092",
+        "refuse_foreign_093",
+        "refuse_foreign_094",
+        "refuse_foreign_095",
+        "refuse_foreign_096",
+        "refuse_foreign_097",
+        "refuse_foreign_098",
+        "refuse_foreign_099",
+        "refuse_foreign_100"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "LanguageRoot",
+      "path": "CLRTY_SUBSTRATE/boot/moniversive_language_root.json"
+    },
+    {
+      "name": "MisCodeIndex",
+      "path": "CLRTY_SUBSTRATE/boot/mis_code_index.json"
+    },
+    {
+      "name": "MisEcosystemRepos",
+      "path": "CLRTY_SUBSTRATE/boot/mis_ecosystem_repos_manifest.json"
+    },
+    {
+      "name": "StaticMlCatalog",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_static_ml_invariants.json"
+    },
+    {
+      "name": "MisNativeKernels",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_mis_native_kernels_776_875.json"
+    },
+    {
+      "name": "MisArchitecture",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_mis_architecture_primitives_876_975.json"
+    },
+    {
+      "name": "MisChainIntake",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_mis_chain_intake_976_1025.json"
+    },
+    {
+      "name": "GradientBand",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_gradient_invariants_201_300.json"
+    },
+    {
+      "name": "TickArchitecture",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_tick_architecture.json"
+    },
+    {
+      "name": "TickStakingGradient",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_tick_staking_gradient_propagation.json"
+    },
+    {
+      "name": "ProtocolStructures",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_protocol_structures_100.json"
+    },
+    {
+      "name": "MisKernelActiveOnly",
+      "path": "CLRTY_SUBSTRATE/boot/mis_kernel_active_only.json"
+    },
+    {
+      "name": "MisKernelSource",
+      "path": "moniversive/framework/mis_kernel.mis"
+    },
+    {
+      "name": "MisAllCodeIndex",
+      "path": "moniversive/framework/MisAllCodeIndex.mis"
+    },
+    {
+      "name": "MlKernelRepo",
+      "path": "https://github.com/clarity-fintech/moniversive_invariant_static_ML"
+    },
+    {
+      "name": "ClrtyMisKernelRepo",
+      "path": "https://github.com/clarity-fintech/CLRTY-MIS-Kernel"
+    },
+    {
+      "name": "MiscCompiler",
+      "path": "bin/misc"
+    }
+  ],
+  "clrty1": {
+    "network": "clrty-1",
+    "chain_id": 1202
+  },
+  "siblings": {
+    "static_ml": "https://github.com/clarity-fintech/moniversive_invariant_static_ML",
+    "mis_kernel": "https://github.com/clarity-fintech/CLRTY-MIS-Kernel"
+  }
+}

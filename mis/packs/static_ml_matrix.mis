@@ -1,0 +1,176 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: CLRTY MIS Verify · StaticMlMatrix
+
+module ClrtyMisVerifyStaticMlMatrix {
+
+  embed gates 3..=6 {
+    context: "StaticMlMatrix pack on MIS domain mis_verify — CLRTY-1";
+    ai: "Index via mis_code_index + moniversive_invariant_static_ML";
+    execution: "assert_pack; assert_each; settle_clrty1";
+    capital: "Settlement clrty-1 / chain 1202 · Creator Chandler William Ferguson";
+  }
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant embed_gates_present: embed_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_static_ml_matrix_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant static_ml_matrix_041: static_ml_matrix_041_bound == true;
+  invariant static_ml_matrix_042: static_ml_matrix_042_bound == true;
+  invariant static_ml_matrix_043: static_ml_matrix_043_bound == true;
+  invariant static_ml_matrix_044: static_ml_matrix_044_bound == true;
+  invariant static_ml_matrix_045: static_ml_matrix_045_bound == true;
+  invariant static_ml_matrix_046: static_ml_matrix_046_bound == true;
+  invariant static_ml_matrix_047: static_ml_matrix_047_bound == true;
+  invariant static_ml_matrix_048: static_ml_matrix_048_bound == true;
+  invariant static_ml_matrix_049: static_ml_matrix_049_bound == true;
+  invariant static_ml_matrix_050: static_ml_matrix_050_bound == true;
+  invariant static_ml_matrix_051: static_ml_matrix_051_bound == true;
+  invariant static_ml_matrix_052: static_ml_matrix_052_bound == true;
+  invariant static_ml_matrix_053: static_ml_matrix_053_bound == true;
+  invariant static_ml_matrix_054: static_ml_matrix_054_bound == true;
+  invariant static_ml_matrix_055: static_ml_matrix_055_bound == true;
+  invariant static_ml_matrix_056: static_ml_matrix_056_bound == true;
+  invariant static_ml_matrix_057: static_ml_matrix_057_bound == true;
+  invariant static_ml_matrix_058: static_ml_matrix_058_bound == true;
+  invariant static_ml_matrix_059: static_ml_matrix_059_bound == true;
+  invariant static_ml_matrix_060: static_ml_matrix_060_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_static_ml_matrix_041(payload: Bytes) {
+    require payload != @0;
+    constraint static_ml_matrix_041_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_static_ml_matrix_042(payload: Bytes) {
+    require payload != @0;
+    constraint static_ml_matrix_042_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_static_ml_matrix_043(payload: Bytes) {
+    require payload != @0;
+    constraint static_ml_matrix_043_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_static_ml_matrix_044(payload: Bytes) {
+    require payload != @0;
+    constraint static_ml_matrix_044_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_static_ml_matrix_045(payload: Bytes) {
+    require payload != @0;
+    constraint static_ml_matrix_045_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_static_ml_matrix_046(payload: Bytes) {
+    require payload != @0;
+    constraint static_ml_matrix_046_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_static_ml_matrix_047(payload: Bytes) {
+    require payload != @0;
+    constraint static_ml_matrix_047_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_static_ml_matrix_048(payload: Bytes) {
+    require payload != @0;
+    constraint static_ml_matrix_048_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_static_ml_matrix_049(payload: Bytes) {
+    require payload != @0;
+    constraint static_ml_matrix_049_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_static_ml_matrix_050(payload: Bytes) {
+    require payload != @0;
+    constraint static_ml_matrix_050_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_static_ml_matrix_051(payload: Bytes) {
+    require payload != @0;
+    constraint static_ml_matrix_051_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_static_ml_matrix_052(payload: Bytes) {
+    require payload != @0;
+    constraint static_ml_matrix_052_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_static_ml_matrix_053(payload: Bytes) {
+    require payload != @0;
+    constraint static_ml_matrix_053_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_static_ml_matrix_054(payload: Bytes) {
+    require payload != @0;
+    constraint static_ml_matrix_054_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_static_ml_matrix_055(payload: Bytes) {
+    require payload != @0;
+    constraint static_ml_matrix_055_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_static_ml_matrix_056(payload: Bytes) {
+    require payload != @0;
+    constraint static_ml_matrix_056_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_static_ml_matrix_057(payload: Bytes) {
+    require payload != @0;
+    constraint static_ml_matrix_057_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_static_ml_matrix_058(payload: Bytes) {
+    require payload != @0;
+    constraint static_ml_matrix_058_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_static_ml_matrix_059(payload: Bytes) {
+    require payload != @0;
+    constraint static_ml_matrix_059_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_static_ml_matrix_060(payload: Bytes) {
+    require payload != @0;
+    constraint static_ml_matrix_060_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}
