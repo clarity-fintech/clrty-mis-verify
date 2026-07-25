@@ -237,5 +237,27 @@
   "siblings": {
     "static_ml": "https://github.com/clarity-fintech/moniversive_invariant_static_ML",
     "mis_kernel": "https://github.com/clarity-fintech/CLRTY-MIS-Kernel"
-  }
+  },
+  "commands": {
+    "module": "mis/commands/ClrtyMisVerifyCommands.mis",
+    "network_bind": "mis/commands/ClrtyMisVerifyNetworkBind.mis",
+    "catalog": "mis/commands/ClrtyMisVerifyCommandCatalog.mis",
+    "family": "verify",
+    "commands": [
+      "cmd_check",
+      "cmd_pack_dispatch",
+      "cmd_connect_network",
+      "cmd_rpc_ping",
+      "cmd_settle_clrty1",
+      "cmd_sync_cherry",
+      "cmd_index_bind",
+      "cmd_verify",
+      "cmd_attest_letter",
+      "cmd_refuse_foreign",
+      "cmd_bind_static_ml"
+    ],
+    "network": "clrty-1",
+    "chain_id": 1202
+  },
+  "updated_at": "2026-07-25T19:49:48.317Z"
 }
